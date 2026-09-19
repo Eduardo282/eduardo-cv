@@ -1,3 +1,5 @@
+import eduardoPhoto from '/eduardo.jpeg'
+
 export default function Hero() {
   return (
     <section className="hero" id="inicio" aria-labelledby="nombre">
@@ -27,7 +29,7 @@ export default function Hero() {
         </div>
         <div className="portrait-wrap">
           <img
-            src="/eduardo.jpeg"
+            src={eduardoPhoto}
             width="307"
             height="331"
             alt="Retrato de Eduardo Francisco García"
